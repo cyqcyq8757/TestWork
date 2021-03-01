@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>회원가입</title>
+<style>
+td{
+    font-size: large; 
+    color: coral;
+}
+select{
+    color: crimson;
+    background-color: teal;
+}
+::placeholder{
+    text-align: center;
+}
+input{
+    background: oldlace;
+    border: 1px solid violet;
+}
+.title_style{
+    text-align: center;
+}
+textarea{
+    background: url(https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/22QT/image/p-RX98d_34y9ElK_Qfwz8OfHhxM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 495px; 
+    height: 312px;
+}
+/* 이 영역은 스타일 시트의 영역이다 HTML 태그 영역이 아님 
+고로. 스타일시트 문법만 작성가능 */
+</style>
+</head>
+<body>
+<table border="1" width="630" align="center">
+    <tr align="center">
+        <td colspan="3" style="color: blue;background-color: chartreuse;font-size: large;font-weight: bold;">
+            회원가입
+        </td>
+    </tr>
+    <tr>
+        <td class="title_style">ID</td>
+        <td colspan="2"><input type="text" placeholder="Your ID"></td>
+    </tr>
+    <tr>
+        <td class="title_style">Password</td>
+        <td colspan="2"><input type="password" placeholder="Your Password"></td>
+    </tr>
+    <tr>
+        <td class="title_style">Name</td>
+        <td colspan="2"><input type="text" placeholder="Your Name"></td>
+    </tr>
+    <tr>
+        <td class="title_style">Phone</td>
+        <td colspan="2">
+            <input type="text" placeholder="국번 입력">
+            <input type="text" placeholder="앞자리 입력">
+            <input type="text" placeholder="뒷자리 입력">
+        </td>
+    </tr>
+    <tr>
+        <td class="title_style">E-mail</td>
+        <td colspan="2">
+            <input type="text" placeholder="이메일">@
+            <select>
+            <option>naver.com</option>
+            <option>gmail.com</option>
+            <option>daum.net</option>
+            <option>nate.com</option>
+            <option selected>직접입력</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td class="title_style">Skill</td>
+        <td colspan="2">
+            <input type="checkbox">node.js
+            <input type="checkbox">javascript
+            <input type="checkbox">jsp
+            <input type="checkbox">oracle
+            <input type="checkbox">mariaDB
+        </td>
+    </tr>
+    <tr>
+        <td class="title_style">E-mail Receive</td>
+        <td colspan="2">
+            <input type="radio" name="email">예
+            <input type="radio" name="email">네
+        </td>
+    </tr>
+    <tr>
+        <td class="title_style">Instruction</td>
+        <td colspan="2"><textarea name="" id="" cols="50" rows="3" placeholder="자기소개" class="instruct"></textarea></td>
+    </tr>
+    <tr align="center">
+        <td colspan="3">
+            <button>가입</button>
+        </td>
+    </tr>
+</table>
+
+<hr>
+<!-- 목록을 표현 해 봅시다 -->
+<ol>
+    <li>파인애플</li>
+    <li>김치볶음밥</li>
+    <li>울라불랄라</li>
+    <li>호두맴매</li>
+    <li>응딩이링링</li>
+</ol>
+<ul>
+    <li>파인애플</li>
+    <li>김치볶음밥</li>
+    <li>울라불랄라</li>
+    <li>호두맴매</li>
+    <li>응딩이링링</li>
+</ul>
+<h1>더미 텍스트</h1>
+<h2>더미 텍스트</h2>
+<h3>더미 텍스트</h3>
+<h4>더미 텍스트</h4>
+<h5>더미 텍스트</h5>
+<h6>더미 텍스트</h6>
+
+<p>
+<span style="font-size:20px;color: teal;">Lorem </span> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula</p>
+<p>
+eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut</p>
+
+</body>
+</html>
